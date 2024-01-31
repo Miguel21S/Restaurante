@@ -1,0 +1,197 @@
+* {
+    box-sizing: border-box;
+}
+
+/* EFECTOS DEL TODO EL DOCUMENTO */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+    
+}
+
+.con> p{
+    color: white;
+}
+
+header {
+    background-color: rgb(197, 194, 194);
+    padding: 10px;
+    width: auto;
+    text-align: center;
+    box-shadow: -7px 8px 8px rgb(66, 47, 60);
+    border-radius: 4px;
+    color: white;
+
+    /* display: flex;
+    flex-flow: row nowrap;
+    
+    border-bottom: 1px solid #fff; */
+}
+
+ .menu, a {
+    float: left;    
+    padding: 14px 16px;
+    color: white;
+    
+    
+}
+
+/* .menu {
+    overflow: hidden;
+    background-color: rgb(66, 47, 60);
+    display: flex;
+}
+
+.menu a {
+    float: left;
+    color: rgb(255, 255, 255);
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.subnavbar {
+    overflow: hidden;
+    float: left;
+} */
+
+.subnavbar .navbarbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbarbtn {
+    color: rgb(255, 255, 255);
+}
+
+.menu a:hover,
+.subnavbar:hover .navbarbtn {
+    background-color: transparent;
+    color: rgb(20, 221, 147);
+}
+
+.subnavbar-content {
+    background-color: rgb(99, 99, 99);
+    display: none;
+    position: absolute;
+    padding: 1%;
+    width: 20%;
+    border-radius: 10px;
+    box-shadow: -52px, 52px 52px rgb(160, 97, 97);
+    
+}
+
+.subnavbar-content a {
+    float: left;
+    text-decoration: none;
+    color: white;
+}
+
+.subnavbar-content a:hover {
+    color: rgb(20, 221, 147);
+}
+
+.subnavbar:hover .subnavbar-content {
+    display: block;
+}
+
+.searc {
+    border-radius: 41ch;
+    padding: 14px 20px;
+    display: flex;
+    justify-content: end;
+    
+}
+
+.search { 
+    margin-top: 1px;
+    width: 350px;
+    font-size: 15px;
+}
+
+
+/* .corpoPrin {
+    padding-top: 30px;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px auto;
+} */
+
+.corpoPrin {
+    margin: 0px auto;
+    width: 90%;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+}
+
+.coluna {
+    margin:10px;
+    border: 1px solid rgb(24, 18, 18);
+    padding: 10px;
+    background-color: rgb(197, 194, 194);
+    border-radius: 8px;
+    box-shadow: -9px 6px 6px rgb(160, 97, 97);
+    
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: column;
+     
+}
+
+.colc {
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 40px;
+    color: rgb(45, 153, 153);
+}
+
+p {
+    font-weight: 300;
+    color: rgb(24, 18, 18);
+}
+
+.btn-botao {
+    background-color: rgb(66, 47, 60);
+    display: block;
+    color: rgb(243, 239, 239);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 5px;
+
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgb(20, 221, 147);
+}
+
+a:active{
+    color: rgb(20, 221, 147);
+}
+
+.corpoSec {
+    /* background-color: rgb(17, 1, 12); */
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+.mencorpoSec {
+    text-decoration: none;
+}
