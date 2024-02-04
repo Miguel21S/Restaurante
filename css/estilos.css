@@ -195,3 +195,50 @@ a:active{
 .mencorpoSec {
     text-decoration: none;
 }
+
+h1 {
+    text-align: center;
+}
+
+form {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: black;
+    box-shadow: -0.3em 0.2em 0.2em #616d61;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #776f6f;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #616d61;
+    color: white;
+    cursor: pointer;
+    box-shadow: -0.3em 0.2em 0.2em #616d61;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
