@@ -258,3 +258,30 @@ strong{
 .container-fluid{
     padding: 3vh;
 }
+
+/* ESTILO ESPECIFICO PARA CONTACTO */
+.hh2{
+    
+    color: rgb(246, 248, 248);
+}
+.contact-info, .contact-form {
+    margin: 5px auto;
+    width: 80%;
+    color: white;
+    background-color: #8e968e;
+    padding: 10px;
+}
+
+.contact-form label, .contact-form textarea, .contact-form input[type="email"], .contact-form button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+
+footer {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
+    padding: 10px 0;
+}

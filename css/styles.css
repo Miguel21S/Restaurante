@@ -1,0 +1,27 @@
+/* Estilos globales */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilos específicos para cada página */
+
+.contact-info, .contact-form {
+    margin: 20px auto;
+    width: 80%;
+}
+
+.contact-form label, .contact-form textarea, .contact-form input[type="email"], .contact-form button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100vh;
+}
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+    .menu, .contact-info, .contact-form {
+        width: 100%;
+    }
+}

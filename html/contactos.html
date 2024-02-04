@@ -12,11 +12,11 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 
-    <link rel='stylesheet' type='text/css' media='screen' href='../css/estilos.css'>
-
+    <link rel="stylesheet" href="../css/estilos.css">
+    <!-- <link rel="stylesheet" href="../css/styles.css"> -->
 </head>
 
-<body style="height:1500px">
+<body>
 
     <div class="con">
         <br>
@@ -57,6 +57,7 @@
                 <div class="subnavbar">
                     <button class="navbarbtn"> Cena </button>
                     <div class="subnavbar-content">
+
                         <a href="../html/comidas.html"> Cena a la carta Y Preferencias </a>
                         <a href="../html/cartaBebida.html"> Carta de Bebidas </a>
 
@@ -74,7 +75,10 @@
                 <div class="subnavbar">
                     <button class="navbarbtn"> Pedidos y Reservas </button>
                     <div class="subnavbar-content">
-                        <a href="../html/formularioReserva.html"> Haga su Reserva</a>
+
+                        <a href="../html/formularioPedido.html"> Haga su Pedido </a>
+                        <a href="../html/formularioPedido.html"> Haga su Reserva</a>
+
                     </div>
                 </div>
             </li>
@@ -88,31 +92,24 @@
         </ul>
     </nav>
 
-    <div class="container">
-        <h1>Formulario de Pedido</h1>
-        <form action="procesar_pedido.php" method="POST" class="arriba">
-            <label for="bebidas">Selecciona Sitio</label>
-            <select id="bebidas" name="bebidas">
-                <option value="agua">Salon</option>
-                <option value="refresco">Terraza</option>
-                <option value="jugo">Fuera</option>
-            </select>
-            <label for="producto">Producto:</label>
-            <input type="text" id="producto" name="producto" required><br><br>
-
-            <label for="cantidad">Cantidad:</label>
-            <input type="number" id="cantidad" name="cantidad" required><br><br>
-
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required><br><br>
-
-            <label for="direccion">Dirección:</label>
-            <input type="text" id="direccion" name="direccion" required><br><br>
-
+    <section class="contact-info">
+        <h1>Información de Contacto</h1>
+        <p>Dirección: Calle Colon, 105</p>
+        <p>Teléfono: 665-761-386</p>
+        <p>Correo electrónico: info@restdelicia.com</p>
+    </section>
+    <section class="contact-form">
+        <h2 class="hh2"> Formulario de Contacto </h2>
+        <form action="submit.php" method="POST">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
             <input type="submit" value="Enviar Pedido">
         </form>
-        <script src='main.js'></script>
-    </div>
+    </section>
 
 </body>
 
