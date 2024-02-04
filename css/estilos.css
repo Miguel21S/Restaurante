@@ -7,10 +7,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     background-color: black;
-    
+
 }
 
-.con> p{
+.con>p {
     color: white;
 }
 
@@ -29,12 +29,13 @@ header {
     border-bottom: 1px solid #fff; */
 }
 
- .menu, a {
-    float: left;    
+.menu,
+a {
+    float: left;
     padding: 14px 16px;
     color: white;
-    
-    
+
+
 }
 
 .subnavbar .navbarbtn {
@@ -65,7 +66,7 @@ header {
     padding: 1%;
     width: 20%;
     border-radius: 10px;
-    box-shadow: -52px, 52px 52px rgb(160, 97, 97);    
+    box-shadow: -52px, 52px 52px rgb(160, 97, 97);
 }
 
 .subnavbar-content a {
@@ -87,10 +88,10 @@ header {
     padding: 14px 20px;
     display: flex;
     justify-content: end;
-    
+
 }
 
-.search { 
+.search {
     margin-top: 1px;
     width: 350px;
     font-size: 15px;
@@ -114,17 +115,17 @@ header {
 }
 
 .coluna {
-    margin:10px;
+    margin: 10px;
     border: 1px solid rgb(24, 18, 18);
     padding: 10px;
     background-color: rgb(197, 194, 194);
     border-radius: 8px;
     box-shadow: -9px 6px 6px rgb(160, 97, 97);
-    
-    display: flex;
-    flex-flow: wrap;
-    flex-direction: column;
-     
+
+    /* display: flex; */
+    /* flex-flow: wrap; */
+    /* flex-direction: column; */
+
 }
 
 .colc {
@@ -132,7 +133,7 @@ header {
     display: flex;
     justify-content: center;
     text-align: center;
-    
+
 }
 
 h2 {
@@ -156,12 +157,12 @@ p {
 
 }
 
-a:hover{
+a:hover {
     text-decoration: none;
     color: rgb(20, 221, 147);
 }
 
-a:active{
+a:active {
     color: rgb(20, 221, 147);
 }
 
@@ -242,4 +243,4 @@ select {
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
-  }
+}
