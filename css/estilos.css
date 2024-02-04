@@ -37,25 +37,6 @@ header {
     
 }
 
-/* .menu {
-    overflow: hidden;
-    background-color: rgb(66, 47, 60);
-    display: flex;
-}
-
-.menu a {
-    float: left;
-    color: rgb(255, 255, 255);
-    padding: 14px 16px;
-    text-align: center;
-    text-decoration: none;
-}
-
-.subnavbar {
-    overflow: hidden;
-    float: left;
-} */
-
 .subnavbar .navbarbtn {
     font-size: 16px;
     border: none;
@@ -244,3 +225,22 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #45a049;
 }
+
+/* CONFIGURACIÓN DE FICHERO CARTABEBIDA */
+
+.cantidad {
+    width: 15%;
+    padding: 5px;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    background-color: #ffffff;
+    /* color: rgb(255, 255, 255); */
+    cursor: pointer;
+}
+
+select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
