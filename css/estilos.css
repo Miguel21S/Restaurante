@@ -83,29 +83,6 @@ a {
     display: block;
 }
 
-.searc {
-    border-radius: 41ch;
-    padding: 14px 20px;
-    display: flex;
-    justify-content: end;
-
-}
-
-.search {
-    margin-top: 1px;
-    width: 350px;
-    font-size: 15px;
-}
-
-
-/* .corpoPrin {
-    padding-top: 30px;
-    color: black;
-    display: flex;
-    justify-content: space-around;
-    margin: 0px auto;
-} */
-
 .corpoPrin {
     margin: 0px auto;
     width: 90%;
@@ -185,7 +162,7 @@ h1 {
 
 form {
     width: 80%;
-    max-width: 600px;
+    max-width: 700em;
     margin: 20px auto;
     padding: 20px;
     border: 1px solid #ccc;
@@ -220,6 +197,7 @@ input[type="submit"] {
     color: white;
     cursor: pointer;
     box-shadow: -0.3em 0.2em 0.2em #616d61;
+    margin-top: 10px;
 }
 
 input[type="submit"]:hover {
@@ -228,7 +206,7 @@ input[type="submit"]:hover {
 
 /* CONFIGURACIÓN DE FICHERO CARTABEBIDA */
 
-.cantidad {
+/* .cantidad {
     width: 15%;
     padding: 5px;
     border: 2px solid #000000;
@@ -236,7 +214,7 @@ input[type="submit"]:hover {
     background-color: #ffffff;
     /* color: rgb(255, 255, 255); */
     cursor: pointer;
-}
+} */
 
 select {
     padding: 10px;
@@ -278,10 +256,52 @@ strong{
     width: 100%;
 }
 
+/* ESTILO DEL MENU COMIDA */
 
-footer {
-    background-color: #ffffff;
-    color: #000000;
-    text-align: center;
-    padding: 10px 0;
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 2px;
+    padding: 2px;
+    border-radius: 4px;
+    box-shadow: -0.3em 0.2em 0.2em #616d61;
+    background-color: #616d61;
 }
+
+.grid-container > div{
+    font-size: 30px;
+    padding: 2px;
+    color: #070707;
+}
+
+.item0{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    text-align: center;
+}
+
+
+.item2{
+    width: 80px;
+    border: 80cm #000000;
+    text-align: center;
+}
+
+.item3{
+text-align: center;
+}
+
+.item5{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    text-align: center;
+}
+
+.grid-container > div>p{
+    color: #ffffff;
+    font-size: 20px;
+
+}
+ .grid-container > div>h2{
+    color: #ffffff;
+ }
