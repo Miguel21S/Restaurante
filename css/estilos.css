@@ -220,8 +220,6 @@ input[type="submit"]:hover {
     border-radius: 4px;
     background-color: #ffffff;
     /* color: rgb(255, 255, 255); */
-cursor: pointer;
-}
 
 */ select {
     padding: 10px;
@@ -317,4 +315,50 @@ strong {
 
 .grid-container>div>h2 {
     color: #ffffff;
+}
+
+@media all and (max-width: 800px) {
+    .section {
+        flex-direction: column;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .navbar .subnavbar-content .navbarbtn a:not(:first-child) {
+        display: none;
+    }
+
+    .navbar .subnavbar-content .navbarbtn a.icon {
+        float: right;
+        display: block;
+    }
+
+}
+
+@media all and (max-width: 500px) {
+    .menu {
+        flex-direction: column;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .navbar.responsive .navbarbtn .subnavbar-content{
+        position: relative;
+    }
+
+    .navbar.responsive .subnavbar .navbarbtn .subnavbar-content .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .navbar.responsive .subnavbar .navbarbtn .subnavbar-content a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
 }

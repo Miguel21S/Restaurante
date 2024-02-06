@@ -63,12 +63,6 @@
                     </div>
                 </div>
             </li>
-            <!-- MENU -->
-            <li class="nav-item">
-                <div class="subnavbar">
-                    <a href="#"> Fechas Especiales</a>
-                </div>
-            </li>
 
             <li class="nav-item">
                 <div class="subnavbar">
@@ -88,26 +82,28 @@
         </ul>
     </nav>
 
-    <div class="container">
-        <h1>Formulario de Pedido</h1>
-        <form action="procesar_pedido.php" method="POST" class="arriba">
-        
-            <label for="producto">Producto:</label>
-            <input type="text" id="producto" name="producto" required><br><br>
-
-            <label for="cantidad">Cantidad:</label>
-            <input type="number" id="cantidad" name="cantidad" required><br><br>
-
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required><br><br>
-
-            <label for="direccion">Dirección:</label>
-            <input type="text" id="direccion" name="direccion" required><br><br>
-
-            <input type="submit" value="Enviar Pedido">
-        </form>
-        <script src='main.js'></script>
-    </div>
+    <section class="sectioPrincipal">
+        <div class="container">
+            <h1>Formulario de Pedido</h1>
+            <form action="procesar_pedido.php" method="POST" class="arriba">
+            
+                <label for="producto">Producto:</label>
+                <input type="text" id="producto" name="producto" required><br><br>
+    
+                <label for="cantidad">Cantidad:</label>
+                <input type="number" id="cantidad" name="cantidad" required><br><br>
+    
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+    
+                <label for="direccion">Dirección:</label>
+                <input type="text" id="direccion" name="direccion" required><br><br>
+    
+                <input type="submit" value="Enviar Pedido">
+            </form>
+            <script src='main.js'></script>
+        </div>
+    </section>
 
 </body>
 
