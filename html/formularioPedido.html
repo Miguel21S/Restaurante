@@ -46,7 +46,6 @@
                     <button class="navbarbtn"> Carta </button>
                     <div class="subnavbar-content">
 
-                        <a href="#"> Desayuno Almuerzo Brunch </a>
                         <a href="./menuDiaPreferencias.html"> Menú del día y Preferencias</a>
                         <a href="./cartaBebida.html"> Carta de Bebidas </a>
 
@@ -57,18 +56,22 @@
                 <div class="subnavbar">
                     <button class="navbarbtn"> Cena </button>
                     <div class="subnavbar-content">
+
                         <a href="./comidas.html"> Cena a la carta Y Preferencias </a>
                         <a href="./cartaBebida.html"> Carta de Bebidas </a>
 
                     </div>
                 </div>
             </li>
-
+            <!-- MENU -->
             <li class="nav-item">
                 <div class="subnavbar">
                     <button class="navbarbtn"> Pedidos y Reservas </button>
                     <div class="subnavbar-content">
-                        <a href="./formularioReserva.html"> Haga su Reserva</a>
+
+                        <a href="./formularioPedido.html"> Haga su Pedido </a>
+                        <a href="./formularioPedido.html"> Haga su Reserva</a>
+
                     </div>
                 </div>
             </li>
@@ -79,6 +82,7 @@
                     <a href="./contactos.html"> Contactos</a>
                 </div>
             </li>
+
         </ul>
     </nav>
 
@@ -86,19 +90,19 @@
         <div class="container">
             <h1>Formulario de Pedido</h1>
             <form action="procesar_pedido.php" method="POST" class="arriba">
-            
+
                 <label for="producto">Producto:</label>
                 <input type="text" id="producto" name="producto" required><br><br>
-    
+
                 <label for="cantidad">Cantidad:</label>
                 <input type="number" id="cantidad" name="cantidad" required><br><br>
-    
+
                 <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre" required><br><br>
-    
+
                 <label for="direccion">Dirección:</label>
                 <input type="text" id="direccion" name="direccion" required><br><br>
-    
+
                 <input type="submit" value="Enviar Pedido">
             </form>
             <script src='main.js'></script>
