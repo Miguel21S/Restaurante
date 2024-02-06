@@ -10,6 +10,13 @@ body {
 
 }
 
+/* .imagenPrincipal {
+    background-image: url('../img/intro.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+} */
+
 .con>p {
     color: white;
 }
@@ -213,36 +220,38 @@ input[type="submit"]:hover {
     border-radius: 4px;
     background-color: #ffffff;
     /* color: rgb(255, 255, 255); */
-    cursor: pointer;
-} */
+cursor: pointer;
+}
 
-select {
+*/ select {
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
-strong{
-    
+strong {
+
     font-size: 20px;
 }
 
-.con{
+.con {
     text-align: justify;
     padding: 3vh;
 }
 
-.container-fluid{
+.container-fluid {
     padding: 3vh;
 }
 
 /* ESTILO ESPECIFICO PARA CONTACTO */
-.hh2{
-    
+.hh2 {
+
     color: rgb(246, 248, 248);
 }
-.contact-info, .contact-form {
+
+.contact-info,
+.contact-form {
     margin: 5px auto;
     width: 80%;
     color: white;
@@ -250,7 +259,10 @@ strong{
     padding: 10px;
 }
 
-.contact-form label, .contact-form textarea, .contact-form input[type="email"], .contact-form button {
+.contact-form label,
+.contact-form textarea,
+.contact-form input[type="email"],
+.contact-form button {
     display: block;
     margin-bottom: 10px;
     width: 100%;
@@ -258,7 +270,7 @@ strong{
 
 /* ESTILO DEL MENU COMIDA */
 
-.grid-container{
+.grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto;
     gap: 2px;
@@ -268,40 +280,41 @@ strong{
     background-color: #616d61;
 }
 
-.grid-container > div{
+.grid-container>div {
     font-size: 30px;
     padding: 2px;
     color: #070707;
 }
 
-.item0{
+.item0 {
     grid-column-start: 1;
     grid-column-end: 5;
     text-align: center;
 }
 
 
-.item2{
+.item2 {
     width: 80px;
     border: 80cm #000000;
     text-align: center;
 }
 
-.item3{
-text-align: center;
+.item3 {
+    text-align: center;
 }
 
-.item5{
+.item5 {
     grid-column-start: 1;
     grid-column-end: 5;
     text-align: center;
 }
 
-.grid-container > div>p{
+.grid-container>div>p {
     color: #ffffff;
     font-size: 20px;
 
 }
- .grid-container > div>h2{
+
+.grid-container>div>h2 {
     color: #ffffff;
- }
+}
